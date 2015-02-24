@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		12478F211A9C931F00CD0CA4 /* SCOverlayPresentTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A804B7AD18D5592600553B20 /* SCOverlayPresentTransition.swift */; };
+		12478F221A9CA08100CD0CA4 /* SCOverlayTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A804B7B318D5623F00553B20 /* SCOverlayTransition.swift */; };
 		A804B77C18D553D500553B20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A804B77B18D553D500553B20 /* Foundation.framework */; };
 		A804B77E18D553D500553B20 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A804B77D18D553D500553B20 /* CoreGraphics.framework */; };
 		A804B78018D553D500553B20 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A804B77F18D553D500553B20 /* UIKit.framework */; };
@@ -22,7 +23,6 @@
 		A804B7A118D553D500553B20 /* SCUnreadMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A804B7A018D553D500553B20 /* SCUnreadMenuTests.m */; };
 		A804B7AC18D5547000553B20 /* SCRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A804B7AB18D5547000553B20 /* SCRootViewController.m */; };
 		A804B7B218D5596700553B20 /* SCMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A804B7B118D5596700553B20 /* SCMenuViewController.m */; };
-		A804B7B518D5623F00553B20 /* SCOverlayDismissTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = A804B7B418D5623F00553B20 /* SCOverlayDismissTransition.m */; };
 		A804B7B818D5643D00553B20 /* SCSpringExpandView.m in Sources */ = {isa = PBXBuildFile; fileRef = A804B7B718D5643D00553B20 /* SCSpringExpandView.m */; };
 		A804B7BE18D5719000553B20 /* SCDragAffordanceView.m in Sources */ = {isa = PBXBuildFile; fileRef = A804B7BD18D5719000553B20 /* SCDragAffordanceView.m */; };
 		A84D387018DE555C0025E546 /* ArticleContent.plist in Resources */ = {isa = PBXBuildFile; fileRef = A84D386F18DE555C0025E546 /* ArticleContent.plist */; };
@@ -61,8 +61,7 @@
 		A804B7AD18D5592600553B20 /* SCOverlayPresentTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCOverlayPresentTransition.swift; sourceTree = "<group>"; };
 		A804B7B018D5596700553B20 /* SCMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCMenuViewController.h; sourceTree = "<group>"; };
 		A804B7B118D5596700553B20 /* SCMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCMenuViewController.m; sourceTree = "<group>"; };
-		A804B7B318D5623F00553B20 /* SCOverlayDismissTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCOverlayDismissTransition.h; sourceTree = "<group>"; };
-		A804B7B418D5623F00553B20 /* SCOverlayDismissTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCOverlayDismissTransition.m; sourceTree = "<group>"; };
+		A804B7B318D5623F00553B20 /* SCOverlayTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCOverlayTransition.swift; sourceTree = "<group>"; };
 		A804B7B618D5643D00553B20 /* SCSpringExpandView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCSpringExpandView.h; sourceTree = "<group>"; };
 		A804B7B718D5643D00553B20 /* SCSpringExpandView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCSpringExpandView.m; sourceTree = "<group>"; };
 		A804B7BC18D5719000553B20 /* SCDragAffordanceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCDragAffordanceView.h; sourceTree = "<group>"; };
@@ -184,8 +183,7 @@
 			isa = PBXGroup;
 			children = (
 				A804B7AD18D5592600553B20 /* SCOverlayPresentTransition.swift */,
-				A804B7B318D5623F00553B20 /* SCOverlayDismissTransition.h */,
-				A804B7B418D5623F00553B20 /* SCOverlayDismissTransition.m */,
+				A804B7B318D5623F00553B20 /* SCOverlayTransition.swift */,
 			);
 			name = Transitions;
 			sourceTree = "<group>";
@@ -305,9 +303,9 @@
 				A804B7BE18D5719000553B20 /* SCDragAffordanceView.m in Sources */,
 				A804B7AC18D5547000553B20 /* SCRootViewController.m in Sources */,
 				A804B78818D553D500553B20 /* main.m in Sources */,
-				A804B7B518D5623F00553B20 /* SCOverlayDismissTransition.m in Sources */,
 				A804B7B218D5596700553B20 /* SCMenuViewController.m in Sources */,
 				12478F211A9C931F00CD0CA4 /* SCOverlayPresentTransition.swift in Sources */,
+				12478F221A9CA08100CD0CA4 /* SCOverlayTransition.swift in Sources */,
 				A804B7B818D5643D00553B20 /* SCSpringExpandView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

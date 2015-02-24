@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+@class SCRootViewController;
 
 @interface SCAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (nonatomic, strong) SCRootViewController *rootViewController;
 
 @end

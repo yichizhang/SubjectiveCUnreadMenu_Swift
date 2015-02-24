@@ -8,7 +8,6 @@
 
 #import "SCRootViewController.h"
 #import "SCMenuViewController.h"
-#import "SCOverlayDismissTransition.h"
 #import "SCDragAffordanceView.h"
 
 #import "SCUnreadMenu-Swift.h"
@@ -28,11 +27,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
+	
+	self.view.backgroundColor = [UIColor whiteColor];
+	
     self.menuViewController = [[SCMenuViewController alloc] initWithNibName:nil bundle:nil];
     self.menuViewController.transitioningDelegate = self;
     self.menuViewController.modalPresentationStyle = UIModalPresentationCustom;
-    
+	
     self.enclosingScrollView = [[UIScrollView alloc] initWithFrame:self.view.bounds];
     self.enclosingScrollView.alwaysBounceHorizontal = YES;
     self.enclosingScrollView.decelerationRate = UIScrollViewDecelerationRateFast;
@@ -52,6 +53,7 @@
     NSString *contentPlistPath = [[NSBundle mainBundle] pathForResource:@"ArticleContent" ofType:@"plist"];
     NSDictionary *contentDictionary = [NSDictionary dictionaryWithContentsOfFile:contentPlistPath];
     self.textView.text = [contentDictionary valueForKey:@"body"];
+	
 }
 
 #pragma mark - UIScrollViewDelegate
@@ -70,7 +72,7 @@
     {
         [self presentViewController:self.menuViewController
                            animated:YES
-                         completion:NULL];
+						 completion:nil];
     }
     else
     {
@@ -82,12 +84,16 @@
 
 - (id<UIViewControllerAnimatedTransitioning>)animationControllerForPresentedController:(UIViewController *)presented presentingController:(UIViewController *)presenting sourceController:(UIViewController *)source
 {
-    return [[SCOverlayPresentTransition alloc] init];
+    SCOverlayTransition *t = [[SCOverlayTransition alloc] init];
+	[t setPresenting:YES];
+	return t;
 }
 
 - (id<UIViewControllerAnimatedTransitioning>)animationControllerForDismissedController:(UIViewController *)dismissed
 {
-    return [[SCOverlayDismissTransition alloc] init];
+	SCOverlayTransition *t = [[SCOverlayTransition alloc] init];
+	[t setPresenting:NO];
+	return t;
 }
 
 @end
