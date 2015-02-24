@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		12478F211A9C931F00CD0CA4 /* SCOverlayPresentTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A804B7AD18D5592600553B20 /* SCOverlayPresentTransition.swift */; };
 		12478F221A9CA08100CD0CA4 /* SCOverlayTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A804B7B318D5623F00553B20 /* SCOverlayTransition.swift */; };
 		A804B77C18D553D500553B20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A804B77B18D553D500553B20 /* Foundation.framework */; };
 		A804B77E18D553D500553B20 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A804B77D18D553D500553B20 /* CoreGraphics.framework */; };
@@ -58,7 +57,6 @@
 		A804B7A018D553D500553B20 /* SCUnreadMenuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCUnreadMenuTests.m; sourceTree = "<group>"; };
 		A804B7AA18D5547000553B20 /* SCRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCRootViewController.h; sourceTree = "<group>"; };
 		A804B7AB18D5547000553B20 /* SCRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCRootViewController.m; sourceTree = "<group>"; };
-		A804B7AD18D5592600553B20 /* SCOverlayPresentTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCOverlayPresentTransition.swift; sourceTree = "<group>"; };
 		A804B7B018D5596700553B20 /* SCMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCMenuViewController.h; sourceTree = "<group>"; };
 		A804B7B118D5596700553B20 /* SCMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCMenuViewController.m; sourceTree = "<group>"; };
 		A804B7B318D5623F00553B20 /* SCOverlayTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCOverlayTransition.swift; sourceTree = "<group>"; };
@@ -182,7 +180,6 @@
 		A804B7BA18D5644D00553B20 /* Transitions */ = {
 			isa = PBXGroup;
 			children = (
-				A804B7AD18D5592600553B20 /* SCOverlayPresentTransition.swift */,
 				A804B7B318D5623F00553B20 /* SCOverlayTransition.swift */,
 			);
 			name = Transitions;
@@ -304,7 +301,6 @@
 				A804B7AC18D5547000553B20 /* SCRootViewController.m in Sources */,
 				A804B78818D553D500553B20 /* main.m in Sources */,
 				A804B7B218D5596700553B20 /* SCMenuViewController.m in Sources */,
-				12478F211A9C931F00CD0CA4 /* SCOverlayPresentTransition.swift in Sources */,
 				12478F221A9CA08100CD0CA4 /* SCOverlayTransition.swift in Sources */,
 				A804B7B818D5643D00553B20 /* SCSpringExpandView.m in Sources */,
 			);
