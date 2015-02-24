@@ -8,9 +8,10 @@
 
 #import "SCRootViewController.h"
 #import "SCMenuViewController.h"
-#import "SCOverlayPresentTransition.h"
 #import "SCOverlayDismissTransition.h"
 #import "SCDragAffordanceView.h"
+
+#import "SCUnreadMenu-Swift.h"
 
 @interface SCRootViewController () <UIScrollViewDelegate, UIViewControllerTransitioningDelegate>
 

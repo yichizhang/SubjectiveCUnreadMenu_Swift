@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12478F211A9C931F00CD0CA4 /* SCOverlayPresentTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A804B7AD18D5592600553B20 /* SCOverlayPresentTransition.swift */; };
 		A804B77C18D553D500553B20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A804B77B18D553D500553B20 /* Foundation.framework */; };
 		A804B77E18D553D500553B20 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A804B77D18D553D500553B20 /* CoreGraphics.framework */; };
 		A804B78018D553D500553B20 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A804B77F18D553D500553B20 /* UIKit.framework */; };
@@ -20,7 +21,6 @@
 		A804B79F18D553D500553B20 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A804B79D18D553D500553B20 /* InfoPlist.strings */; };
 		A804B7A118D553D500553B20 /* SCUnreadMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A804B7A018D553D500553B20 /* SCUnreadMenuTests.m */; };
 		A804B7AC18D5547000553B20 /* SCRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A804B7AB18D5547000553B20 /* SCRootViewController.m */; };
-		A804B7AF18D5592600553B20 /* SCOverlayPresentTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = A804B7AE18D5592600553B20 /* SCOverlayPresentTransition.m */; };
 		A804B7B218D5596700553B20 /* SCMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A804B7B118D5596700553B20 /* SCMenuViewController.m */; };
 		A804B7B518D5623F00553B20 /* SCOverlayDismissTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = A804B7B418D5623F00553B20 /* SCOverlayDismissTransition.m */; };
 		A804B7B818D5643D00553B20 /* SCSpringExpandView.m in Sources */ = {isa = PBXBuildFile; fileRef = A804B7B718D5643D00553B20 /* SCSpringExpandView.m */; };
@@ -39,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12558F2F1A9C91C0001C7C10 /* SCUnreadMenu-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SCUnreadMenu-Bridging-Header.h"; sourceTree = "<group>"; };
 		A804B77818D553D500553B20 /* SCUnreadMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SCUnreadMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A804B77B18D553D500553B20 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A804B77D18D553D500553B20 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -57,8 +58,7 @@
 		A804B7A018D553D500553B20 /* SCUnreadMenuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCUnreadMenuTests.m; sourceTree = "<group>"; };
 		A804B7AA18D5547000553B20 /* SCRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCRootViewController.h; sourceTree = "<group>"; };
 		A804B7AB18D5547000553B20 /* SCRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCRootViewController.m; sourceTree = "<group>"; };
-		A804B7AD18D5592600553B20 /* SCOverlayPresentTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCOverlayPresentTransition.h; sourceTree = "<group>"; };
-		A804B7AE18D5592600553B20 /* SCOverlayPresentTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCOverlayPresentTransition.m; sourceTree = "<group>"; };
+		A804B7AD18D5592600553B20 /* SCOverlayPresentTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCOverlayPresentTransition.swift; sourceTree = "<group>"; };
 		A804B7B018D5596700553B20 /* SCMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCMenuViewController.h; sourceTree = "<group>"; };
 		A804B7B118D5596700553B20 /* SCMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCMenuViewController.m; sourceTree = "<group>"; };
 		A804B7B318D5623F00553B20 /* SCOverlayDismissTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCOverlayDismissTransition.h; sourceTree = "<group>"; };
@@ -141,6 +141,7 @@
 		A804B78218D553D500553B20 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				12558F2F1A9C91C0001C7C10 /* SCUnreadMenu-Bridging-Header.h */,
 				A84D386F18DE555C0025E546 /* ArticleContent.plist */,
 				A804B78318D553D500553B20 /* SCUnreadMenu-Info.plist */,
 				A804B78418D553D500553B20 /* InfoPlist.strings */,
@@ -182,8 +183,7 @@
 		A804B7BA18D5644D00553B20 /* Transitions */ = {
 			isa = PBXGroup;
 			children = (
-				A804B7AD18D5592600553B20 /* SCOverlayPresentTransition.h */,
-				A804B7AE18D5592600553B20 /* SCOverlayPresentTransition.m */,
+				A804B7AD18D5592600553B20 /* SCOverlayPresentTransition.swift */,
 				A804B7B318D5623F00553B20 /* SCOverlayDismissTransition.h */,
 				A804B7B418D5623F00553B20 /* SCOverlayDismissTransition.m */,
 			);
@@ -305,9 +305,9 @@
 				A804B7BE18D5719000553B20 /* SCDragAffordanceView.m in Sources */,
 				A804B7AC18D5547000553B20 /* SCRootViewController.m in Sources */,
 				A804B78818D553D500553B20 /* main.m in Sources */,
-				A804B7AF18D5592600553B20 /* SCOverlayPresentTransition.m in Sources */,
 				A804B7B518D5623F00553B20 /* SCOverlayDismissTransition.m in Sources */,
 				A804B7B218D5596700553B20 /* SCMenuViewController.m in Sources */,
+				12478F211A9C931F00CD0CA4 /* SCOverlayPresentTransition.swift in Sources */,
 				A804B7B818D5643D00553B20 /* SCSpringExpandView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,13 +425,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SCUnreadMenu/SCUnreadMenu-Prefix.pch";
 				INFOPLIST_FILE = "SCUnreadMenu/SCUnreadMenu-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "SCUnreadMenu/SCUnreadMenu-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -441,13 +445,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SCUnreadMenu/SCUnreadMenu-Prefix.pch";
 				INFOPLIST_FILE = "SCUnreadMenu/SCUnreadMenu-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "SCUnreadMenu/SCUnreadMenu-Bridging-Header.h";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
