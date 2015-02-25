@@ -7,7 +7,7 @@
 //
 
 #import "SCDragAffordanceView.h"
-#import "SCSpringExpandView.h"
+#import "SCUnreadMenu-Swift.h"
 
 @interface SCDragAffordanceView ()
 
