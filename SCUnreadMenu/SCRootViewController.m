@@ -8,7 +8,6 @@
 
 #import "SCRootViewController.h"
 #import "SCMenuViewController.h"
-#import "SCDragAffordanceView.h"
 
 #import "SCUnreadMenu-Swift.h"
 
