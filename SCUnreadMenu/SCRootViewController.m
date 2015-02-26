@@ -7,8 +7,6 @@
 //
 
 #import "SCRootViewController.h"
-#import "SCMenuViewController.h"
-
 #import "SCUnreadMenu-Swift.h"
 
 @interface SCRootViewController () <UIScrollViewDelegate, UIViewControllerTransitioningDelegate>
