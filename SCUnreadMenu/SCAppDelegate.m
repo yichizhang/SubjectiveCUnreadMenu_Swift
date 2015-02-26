@@ -7,7 +7,7 @@
 //
 
 #import "SCAppDelegate.h"
-#import "SCRootViewController.h"
+#import "SCUnreadMenu-Swift.h"
 
 @implementation SCAppDelegate
 
