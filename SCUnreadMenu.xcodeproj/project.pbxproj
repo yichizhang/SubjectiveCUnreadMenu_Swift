@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		12478F221A9CA08100CD0CA4 /* SCOverlayTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A804B7B318D5623F00553B20 /* SCOverlayTransition.swift */; };
+		1266B0E81AA0248A00F23A2A /* SCAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1266B0E71AA0248A00F23A2A /* SCAppDelegate.swift */; };
 		1291EC031A9F86B70003EBA9 /* SCRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1291EC021A9F86B70003EBA9 /* SCRootViewController.swift */; };
 		12D409F61A9DE61B00EEDBBF /* SCSpringExpandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D409F51A9DE61B00EEDBBF /* SCSpringExpandView.swift */; };
 		12D409F81A9E1CEB00EEDBBF /* SCDragAffordanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D409F71A9E1CEB00EEDBBF /* SCDragAffordanceView.swift */; };
@@ -16,8 +17,6 @@
 		A804B77E18D553D500553B20 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A804B77D18D553D500553B20 /* CoreGraphics.framework */; };
 		A804B78018D553D500553B20 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A804B77F18D553D500553B20 /* UIKit.framework */; };
 		A804B78618D553D500553B20 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A804B78418D553D500553B20 /* InfoPlist.strings */; };
-		A804B78818D553D500553B20 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A804B78718D553D500553B20 /* main.m */; };
-		A804B78C18D553D500553B20 /* SCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A804B78B18D553D500553B20 /* SCAppDelegate.m */; };
 		A804B78E18D553D500553B20 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A804B78D18D553D500553B20 /* Images.xcassets */; };
 		A804B79518D553D500553B20 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A804B79418D553D500553B20 /* XCTest.framework */; };
 		A804B79618D553D500553B20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A804B77B18D553D500553B20 /* Foundation.framework */; };
@@ -39,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		12558F2F1A9C91C0001C7C10 /* SCUnreadMenu-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SCUnreadMenu-Bridging-Header.h"; sourceTree = "<group>"; };
+		1266B0E71AA0248A00F23A2A /* SCAppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCAppDelegate.swift; sourceTree = "<group>"; };
 		1291EC021A9F86B70003EBA9 /* SCRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCRootViewController.swift; sourceTree = "<group>"; };
 		12D409F51A9DE61B00EEDBBF /* SCSpringExpandView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCSpringExpandView.swift; sourceTree = "<group>"; };
 		12D409F71A9E1CEB00EEDBBF /* SCDragAffordanceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCDragAffordanceView.swift; sourceTree = "<group>"; };
@@ -49,10 +49,7 @@
 		A804B77F18D553D500553B20 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A804B78318D553D500553B20 /* SCUnreadMenu-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SCUnreadMenu-Info.plist"; sourceTree = "<group>"; };
 		A804B78518D553D500553B20 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A804B78718D553D500553B20 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A804B78918D553D500553B20 /* SCUnreadMenu-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SCUnreadMenu-Prefix.pch"; sourceTree = "<group>"; };
-		A804B78A18D553D500553B20 /* SCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCAppDelegate.h; sourceTree = "<group>"; };
-		A804B78B18D553D500553B20 /* SCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCAppDelegate.m; sourceTree = "<group>"; };
 		A804B78D18D553D500553B20 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A804B79318D553D500553B20 /* SCUnreadMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SCUnreadMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A804B79418D553D500553B20 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -120,8 +117,7 @@
 		A804B78118D553D500553B20 /* SCUnreadMenu */ = {
 			isa = PBXGroup;
 			children = (
-				A804B78A18D553D500553B20 /* SCAppDelegate.h */,
-				A804B78B18D553D500553B20 /* SCAppDelegate.m */,
+				1266B0E71AA0248A00F23A2A /* SCAppDelegate.swift */,
 				A804B7B918D5644400553B20 /* Controller */,
 				A804B7BB18D5645500553B20 /* View */,
 				A804B7BA18D5644D00553B20 /* Transitions */,
@@ -138,7 +134,6 @@
 				A84D386F18DE555C0025E546 /* ArticleContent.plist */,
 				A804B78318D553D500553B20 /* SCUnreadMenu-Info.plist */,
 				A804B78418D553D500553B20 /* InfoPlist.strings */,
-				A804B78718D553D500553B20 /* main.m */,
 				A804B78918D553D500553B20 /* SCUnreadMenu-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -289,8 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				12FCC6FF1A9F85A700BE5C02 /* SCMenuViewController.swift in Sources */,
-				A804B78C18D553D500553B20 /* SCAppDelegate.m in Sources */,
-				A804B78818D553D500553B20 /* main.m in Sources */,
+				1266B0E81AA0248A00F23A2A /* SCAppDelegate.swift in Sources */,
 				12D409F81A9E1CEB00EEDBBF /* SCDragAffordanceView.swift in Sources */,
 				12478F221A9CA08100CD0CA4 /* SCOverlayTransition.swift in Sources */,
 				1291EC031A9F86B70003EBA9 /* SCRootViewController.swift in Sources */,
