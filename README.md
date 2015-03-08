@@ -1,3 +1,6 @@
+
+I've been very interested in the implementation of [Subjective-C Unread Menu](https://github.com/subjc/SubjectiveCUnreadMenu). So I rewrote it in Swift to learn its implementation and also practise iOS programming. The original version is written in Objective-C by [Sam Page](https://github.com/sampage).
+
 Subjective-C Unread Menu
 ======================
 
